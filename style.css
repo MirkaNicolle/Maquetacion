@@ -1,0 +1,265 @@
+html, body{
+	font-size: 10px;
+	font-family: sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #f1f6f6;
+	box-sizing: border-box;
+}
+
+.encabezado{
+    background: white;
+    height: 50px;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    color: #00a09b;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+h2{
+	color: gray;
+	font-size: 15px;
+	font-weight: lighter;
+	line-height: 10px;
+	padding: 20px;
+}
+
+h3{
+	color: #00a09b;
+	font-size: 20px;
+	line-height: 10px;
+	margin-left: 650px;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+h4{
+	color: #00a09b;
+	font-size: 20px;
+	line-height: 1px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 3px;
+
+}
+
+.contenido{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	float: right;
+}
+
+.directorio{
+	background-color: white;
+	border-radius: 5%;
+	display: block;
+	height: 500px;
+	margin-bottom: 50px;
+	margin-left: 20px;
+	margin-top: 50px;
+	width: 250px;
+}
+
+.t1{
+	color: #E1E4E4;
+	font-size: 15px;
+	font-weight: bold;
+	position: relative;
+	padding: 10px;
+}
+
+.t2{
+	color: #515656;
+	font-size: 14px;
+	position: relative;
+	padding: 10px;
+}
+
+.t3{
+	color: #515656;
+	font-size: 14px;
+	position: relative;
+	padding: 10px;
+}
+
+.t4{
+	color: #515656;
+	font-size: 14px;
+	position: relative;
+	padding: 10px;
+}
+
+.t5{
+	color: #515656;
+	font-size: 14px;
+	position: relative;
+	padding: 10px;
+}
+
+.t6{
+	color: #515656;
+	font-size: 14px;
+	position: relative;
+	padding: 10px;
+}
+
+.t7{
+	color: #515656;
+	font-size: 14px;
+	position: relative;
+	padding: 10px;
+}
+
+.t8{
+	color: #515656;
+	font-size: 14px;
+	position: relative;
+	padding: 10px;
+}
+
+.t9{
+	color: #00a09b;
+	font-size: 15px;
+	font-weight: bold;
+	position: relative;
+	padding: 10px;
+}
+
+input{
+	border-radius: 12px;
+	border: 1px solid #D5E1E1;
+	box-sizing: border-box;
+	color: #C1E2E2;
+	margin-bottom: 14px;
+	margin-left: 6px;
+	padding: 10px;
+}
+
+.boton1{
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	background-color: #00a09b;
+	border-radius: 50px;
+	color: #ffffff;
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+	height: 22px;
+	line-height: 32px;
+	margin: 3px;
+	padding: 5px;
+	text-align: center;
+	width: 22px;
+}
+
+aside{
+	color: #00a09b;
+	display: flex;
+	float: right;
+	font-size: 25px;
+	font-weight: lighter;
+	height: 50px;
+	line-height: 50px;
+	margin-right: 20px;
+	width: 75%;
+    flex-direction: row;
+}
+
+.boton2{
+	background-color: #90EA9A;
+	border-radius: 12px;
+	color: #ffffff;
+	float: right;
+	font-size: 15px;
+	padding: 8px;
+	line-height: 25px;
+	margin-left: 600px;
+}
+
+.boton3{
+	background-color: #90EAD0;
+	border-radius: 12px;
+	color: #ffffff;
+	float: right;
+	font-size: 15px;
+	padding: 8px;
+	line-height: 25px;
+	margin-left: 10px;
+}
+
+.idiomas{
+	color: #00a09b;
+	display: inline;
+	float: right;
+	font-size: 25px;
+	font-weight: lighter;
+	height: 50px;
+	line-height: 50px;
+	margin-right: 20px;
+	width: 75%;
+}
+
+.es{
+	color: gray;
+	display: inline;
+	font-size: 15px;
+	line-height: 5px;
+	padding: 10px;
+}
+
+.en{
+	color: gray;
+	display: inline;
+	font-size: 15px;
+	line-height: 5px;
+	padding: 10px;
+}
+
+.libros{
+	display: flex;
+	float: right;
+	height: 50px;
+	margin-right: 20px;
+	width: 75%;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 250px;
+}
+
+.img_libro{
+	background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 150px;
+}
+
+.pie_libro{
+	background: white;
+    padding: 16px;
+    position: relative;
+    width: 120px;
+    
+}
+
+.titulo_libro{
+	color: #019c97;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.tamaño_libro{
+	color: #777777;
+    font-size: 15px;
+}
